@@ -1,6 +1,12 @@
 # Alfred-sshutil
 
-![](https://tc.mustache.top/picGo/202305120907461.gif)
+1. 唤出搜索框，输入ssh
+
+![image-20230512092929388](https://tc.mustache.top/picGo/202305120929435.png)
+
+2. 回车
+
+![image-20230512093149832](https://tc.mustache.top/picGo/202305120931853.png)
 
 ​	通过mysql配置服务器的账号密码等信息，python脚本获取数据库信息，通过shell脚本使用expect连接服务器.
 
