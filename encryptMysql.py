@@ -1,3 +1,4 @@
+# 用于对数据库所有密码进行加密
 import pymysql
 import os
 from Crypto.Cipher import AES

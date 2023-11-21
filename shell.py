@@ -1,3 +1,4 @@
+# 用于生成 expect 脚本
 import sys
 import json
 import os

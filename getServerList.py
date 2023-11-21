@@ -1,9 +1,8 @@
+# 用于获取服务器列表
 import sys
 import json
 import pymysql
 import os
-
-
 
 def main():  
     host = os.environ['host']
@@ -48,14 +47,17 @@ def main():
             'type': 'fileicon',
         }
         mods = {}
+        if encrypt == 1:
+            copyPassword = '*&*' + password
+
         mods['alt'] = {
             'valid': 'true',
-            'subtitle': '按下回车键,将密码复制到剪切板',
-            'arg': password,
+            'subtitle': 'press enter to copy password',
+            'arg': copyPassword,
         }
         mods['cmd'] = {
             'valid': 'true',
-            'subtitle': '按下回车键,将ip复制到剪切板',
+            'subtitle': 'press enter to copy server ip',
             'arg': ip,
         }
         item['mods'] = mods
