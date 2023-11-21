@@ -8,9 +8,9 @@
 
 An alfred workflow for one-click connections to servers
 
-![view](./assets/view.mp4)
+https://user-images.githubusercontent.com/67859663/284560177-6e34177b-a18a-4656-b7e0-d390c32a4f18.mp4
 
-![image-20231121170634065](./assets/image-20231121170634065.png)
+![image-20231121193242879](./assets/image-20231121193242879.png)
 
 Execute python scripts to read the server configuration information in the mysql database by triggering actions, and connect to the server with one click through the expect shell
 
